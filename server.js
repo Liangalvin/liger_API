@@ -1,7 +1,7 @@
 var express = require('express');
 var cors = require('cors');
 var app = express();
-var routes = require('./mods.js')
+var routes = require('./mods.js');
 
 app.use(cors());
 
